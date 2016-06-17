@@ -51,12 +51,6 @@ namespace AdaptiveCode
             throw new NotImplementedException();
         }*/
 
-        private void submit_Click(object sender, RoutedEventArgs e)
-        {
-            outputanNama.Text = "Halo " + inputanNama.Text + "!";
-            inputanNama.Text = "";
-        }
-
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
 

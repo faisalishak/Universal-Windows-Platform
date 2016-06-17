@@ -15,16 +15,8 @@
     </Page.BottomAppBar>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <RelativePanel>
-            <StackPanel  x:Name="hallo">
-                <TextBlock Text="HaloDunia" ></TextBlock>
-                <TextBlock Text="Ketikan nama anda"></TextBlock>
-                <TextBox x:Name="inputanNama"></TextBox>
-                <Button x:Name="submit" Click="submit_Click">Katakan "Halo"</Button>
-                <TextBlock x:Name="outputanNama"></TextBlock>
-            </StackPanel>
 
-            <StackPanel RelativePanel.Below="hallo" x:Name="hai" HorizontalAlignment = "Center" VerticalAlignment = "Center" >
+            <StackPanel x:Name="hai" HorizontalAlignment = "Center" VerticalAlignment = "Center" >
                 <RadioButton x:Name = "ShowAppBarRadioButton" Content = "Show AppBar"
                                     HorizontalAlignment = "Stretch" VerticalAlignment = "Stretch"
                                     IsChecked = "True" Checked = "RadioButton_Checked"/>
@@ -50,7 +42,6 @@
 
             </StackPanel>
         </RelativePanel>
-
     </Grid>
 
 
