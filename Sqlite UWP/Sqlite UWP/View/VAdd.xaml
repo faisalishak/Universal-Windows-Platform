@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Sqlite_UWP.View.VAdd"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sqlite_UWP.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <RelativePanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox Name="inputNama"
+                     Header="Nama" 
+                     Height="60" 
+                     Width="300"></TextBox>
+            <TextBox Name="inputKelas"                      
+                     Header="kelas" 
+                     Height="60" 
+                     Width="300"
+                     RelativePanel.Below="inputNama"
+                     Margin="0 10 0 0"></TextBox>
+        </RelativePanel>
+
+        <CommandBar Background="Transparent" IsOpen="True" VerticalAlignment="Bottom" >
+            <AppBarButton Name="btnBack"
+                          Icon="Back" 
+                          Label="Back" 
+                          Click="btnBack_Click"
+                          HorizontalAlignment="Center"></AppBarButton>
+            <AppBarButton Icon="Accept"
+                          Name="btnDone"
+                          Label="Done" 
+                          HorizontalAlignment="Center" 
+                          VerticalAlignment="Top"
+                          Click="btnDone_Click"/>
+        </CommandBar>
+    </Grid>
+</Page>

@@ -9,16 +9,16 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>796993e4-7295-45cc-a7ec-3055036b1d8b</PackageIdentityName>
-    <IntermediateOutputPath>D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\obj\x86\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Sqlite UWP.exe">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Sqlite UWP.exe">
       <PackagePath>entrypoint\Sqlite UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\faisal\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
@@ -348,49 +348,49 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.13.0\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\ApplicationInsights.config">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Sqlite UWP.xr.xml">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Sqlite UWP.xr.xml">
       <PackagePath>Sqlite UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Core\Sqlite UWP.exe">
+    <AppxPackagedFile Include="D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\bin\x86\Debug\Core\Sqlite UWP.exe">
       <PackagePath>Sqlite UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
