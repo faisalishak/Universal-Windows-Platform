@@ -106,8 +106,14 @@
     <Compile Include="Models\MPhotoDataItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\VMPhotoDataSource.cs" />
+    <Compile Include="Views\VHamburgerMenu.xaml.cs">
+      <DependentUpon>VHamburgerMenu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\VImageEx.xaml.cs">
       <DependentUpon>VImageEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\VPullToRefresh.xaml.cs">
+      <DependentUpon>VPullToRefresh.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\VRadialGauge.xaml.cs">
       <DependentUpon>VRadialGauge.xaml</DependentUpon>
@@ -167,7 +173,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\VHamburgerMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\VImageEx.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\VPullToRefresh.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
