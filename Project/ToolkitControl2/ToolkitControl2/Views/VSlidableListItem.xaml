@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="ToolkitControl2.Views.VSlidableListItem"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ToolkitControl2.Views"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="using:Microsoft.Toolkit.Uwp.UI.Converters"   
+    xmlns:data="using:ToolkitControl2.Models"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+        <DataTemplate x:Key="EmailsItemTemplate" x:DataType="data:MItems">
+            <controls:SlidableListItem 
+                    HorizontalAlignment="Stretch"
+                    LeftIcon="Favorite" 
+                    RightIcon="Delete" 
+                    LeftLabel="Set Favourite" 
+                    RightLabel="Delete"
+                    LeftBackground="SkyBlue" 
+                    RightBackground="OrangeRed"
+                    LeftForeground ="White" 
+                    RightForeground ="White"
+                    ActivationWidth="100"
+                    MouseSlidingEnabled="True"
+                    LeftCommand="{x:Bind ToggleFavorite}"
+                    RightCommandRequested="SlidableListItem_RightCommandRequested">
+                <Grid Height="110" Background="Gray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="16*"/>
+                        <ColumnDefinition Width="75*"/>
+                    </Grid.ColumnDefinitions>
+                    <Rectangle Grid.Column="0" Fill="Crimson" Visibility="{x:Bind IsFavorite, Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}"></Rectangle>
+                    <StackPanel Margin="10,0,0,0" Grid.Column="0">
+                        <CheckBox IsChecked="{x:Bind IsFavorite, Mode=OneWay}"/>
+                        <TextBlock Text="{x:Bind Title}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap"/>
+                    </StackPanel>
+                </Grid>
+            </controls:SlidableListItem>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListView x:Name="listView" 
+                  ItemTemplate="{StaticResource EmailsItemTemplate}" 
+                  ItemsSource="{x:Bind _items, Mode=OneWay}" 
+                  SelectionMode="None" 
+                  IsItemClickEnabled="False">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                    <Setter Property="Margin" Value="0,1"></Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+    </Grid>
+</Page>

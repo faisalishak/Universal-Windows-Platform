@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="Sqlite.TampilData"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sqlite"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="50">
+            <TextBlock VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="24">DeadlineKu</TextBlock>
+            <TextBlock>Judul</TextBlock>
+            <TextBox Name="judul"></TextBox>
+            <TextBlock>Tanggal</TextBlock>
+            <CalendarDatePicker Name="tanggal"></CalendarDatePicker>
+            <TextBlock>Deskripsi</TextBlock>
+            <TextBox Name="isi" TextWrapping="Wrap" HorizontalAlignment="Stretch"></TextBox>
+            <TextBlock>Tag</TextBlock>
+            <ComboBox Name="tag">
+                <ComboBoxItem IsSelected="True">Normal</ComboBoxItem>
+                <ComboBoxItem>Penting</ComboBoxItem>
+                <ComboBoxItem>Sangat Penting</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <Page>
+            <Page.BottomAppBar>
+                <CommandBar>
+                    <AppBarButton Icon="Save">Simpan
+                        <Button.Flyout>
+                            <Flyout>
+                                <StackPanel>
+                                    <TextBlock>Semua data akan dimasukan, Anda yakin?</TextBlock>
+                                    <Button Name="simpan" Click="simpan_Click">Simpan Data</Button>
+                                </StackPanel>
+                            </Flyout>
+                        </Button.Flyout>
+                    </AppBarButton>
+                    <AppBarButton Name="back" Icon="Back" Click="back_Click">Lihat</AppBarButton>
+                </CommandBar>
+            </Page.BottomAppBar>
+        </Page>
+    </Grid>
+</Page>

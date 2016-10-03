@@ -1,0 +1,22 @@
+buatlah "to do list" untuk mencatat daftar belanja.
+
+variablenya sebagai berikut:
+
+- NamaBarang
+
+- TingkatKebutuhan (apakah mendesak atau tidak)
+
+- Status (sudah dibeli atau belum)
+
+
+
+kreteria aplikasi:
+
+- user bisa menambah daftar belanja dan dapat melihat daftar belanja. 
+
+- Secara default daftar belanja yang dimasukkan adalah dalam status "belum dibeli".
+
+- setiap list list daftar belanja dapat kita hapus atau mengubah status dari "belum dibeli" menjadi "sudah dibeli"
+
+
+

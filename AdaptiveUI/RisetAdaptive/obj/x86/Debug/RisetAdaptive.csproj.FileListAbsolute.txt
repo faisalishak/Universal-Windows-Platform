@@ -210,3 +210,5 @@ C:\Users\Ramdhan\documents\visual studio 2015\Projects\Riset\RisetAdaptive\Riset
 C:\Users\Ramdhan\documents\visual studio 2015\Projects\Riset\RisetAdaptive\RisetAdaptive\obj\x86\Debug\Views\Home.xaml
 C:\Users\Ramdhan\documents\visual studio 2015\Projects\Riset\RisetAdaptive\RisetAdaptive\obj\x86\Debug\Views\Home.xbf
 C:\Users\Ramdhan\documents\visual studio 2015\Projects\Riset\RisetAdaptive\RisetAdaptive\bin\x86\Debug\Newtonsoft.Json.dll
+D:\[PENTING ARSIP RESEARCH]\Universal-Windows-Platform\AdaptiveUI\RisetAdaptive\obj\x86\Debug\RisetAdaptive.exe
+D:\[PENTING ARSIP RESEARCH]\Universal-Windows-Platform\AdaptiveUI\RisetAdaptive\obj\x86\Debug\RisetAdaptive.pdb
