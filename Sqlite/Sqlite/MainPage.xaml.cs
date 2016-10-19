@@ -71,10 +71,11 @@ namespace Sqlite
                     judul = item.judul,
                     tanggal = item.tanggal,
                     konten = item.konten,
-                    tag = item.tag,
+                    tag = item.tag.Replace("\n", "\n\r"),
                 });
             }
             lvExpired.ItemsSource = listExpired;
+
 
             if (listDeadline.Count == 0)
             {

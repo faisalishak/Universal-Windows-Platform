@@ -1,1 +1,0 @@
-D:\Arsip kuliah\Research\Codelabs\Project_mobile\Universal  Windows Platform\Sqlite UWP\Sqlite UWP\Sqlite UWP.csproj;x86

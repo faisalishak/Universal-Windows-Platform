@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="ToolkitControl2.Views.VRotatorTile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ToolkitControl2.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <DataTemplate x:Key="PhotoTemplate">
+            <Grid>
+                <Image HorizontalAlignment="Center" Stretch="UniformToFill">
+                    <Image.Source>
+                        <BitmapImage UriSource="{Binding Thumbnail}" DecodePixelHeight="200"></BitmapImage>
+                    </Image.Source>
+                </Image>
+                <Border VerticalAlignment="Bottom">
+                    <Border.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Offset="0" Color="Transparent"></GradientStop>
+                            <GradientStop Offset="1" Color="#33000000"></GradientStop>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <TextBlock Text="{Binding Title}" VerticalAlignment="Bottom" Margin="5,20,5,5" />
+                </Border>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
+    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <controls:RotatorTile x:Name="Tile1"
+                                  Background="LightGray"
+                                  Direction="Left" 
+                                  Width="400"
+                                  Height="200"
+                                  Margin="20"
+                                  ItemTemplate="{StaticResource PhotoTemplate}" 
+                                  Grid.Column="0" 
+                                  Grid.Row="0" 
+                                  AutomationProperties.LiveSetting="Polite" />
+    </Grid>
+</Page>
